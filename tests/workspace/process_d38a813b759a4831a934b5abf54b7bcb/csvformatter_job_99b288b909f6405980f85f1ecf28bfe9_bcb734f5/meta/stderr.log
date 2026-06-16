@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/csv_formatter/scripts/run_csv_formatter.py", line 5, in <module>
+    from data_juicer.format.csv_formatter import CsvFormatter
+  File "/opt/homebrew/lib/python3.11/site-packages/data_juicer/__init__.py", line 7, in <module>
+    from loguru import logger
+ModuleNotFoundError: No module named 'loguru'

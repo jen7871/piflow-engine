@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/DC1_Blank_Line_Clean/scripts/DC1_Blank_Line_Clean.py",
+    "--input",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/PdfMetadataToCsv_job_44e6e5991d7f4f9097ecf5f895b91750_dd87567d/output/metadata.csv",
+    "--output",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/BlankLineClean_job_e4701949001f4a399e76f72e84770219_980abff6/output/cleaned_output.csv"
+  ],
+  "cwd": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/DC1_Blank_Line_Clean",
+  "returncode": 0,
+  "resolved_values": {
+    "script_path": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/DC1_Blank_Line_Clean/scripts/DC1_Blank_Line_Clean.py",
+    "input": "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/PdfMetadataToCsv_job_44e6e5991d7f4f9097ecf5f895b91750_dd87567d/output/metadata.csv",
+    "output": "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/BlankLineClean_job_e4701949001f4a399e76f72e84770219_980abff6/output/cleaned_output.csv"
+  },
+  "spec_source": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/DC1_Blank_Line_Clean/skill.json"
+}

@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piflow-engine"
+version = "0.1.1"
+description = "Python runtime and local execution engine for PiFlow."
+requires-python = ">=3.11"
+authors = [
+  { name = "PiFlow" }
+]
+readme = { text = "Python runtime and local execution engine for PiFlow.", content-type = "text/plain" }
+license = { text = "Proprietary" }
+keywords = ["piflow", "workflow", "pipeline", "runtime"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+postgres = [
+  "psycopg[binary]>=3.1",
+]
+dev = [
+  "build>=1.2",
+  "pytest>=8",
+]
+
+[project.urls]
+Homepage = "https://github.com/piflow/piflow-python"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cn", "cn.*"]
+exclude = [
+  "tests",
+  "tests.*",
+  "docs",
+  "docs.*",
+  "logs",
+  "logs.*",
+]

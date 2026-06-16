@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/csv_formatter/scripts/run_csv_formatter.py",
+    "--input_path",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/data/input.csv",
+    "--output_path",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d38a813b759a4831a934b5abf54b7bcb/csvformatter_job_99b288b909f6405980f85f1ecf28bfe9_bcb734f5/output/csv_formatter_output.jsonl",
+    "--add_suffix",
+    "False",
+    "--num_proc",
+    "1",
+    "--encoding",
+    "utf-8"
+  ],
+  "cwd": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/csv_formatter",
+  "returncode": 1,
+  "resolved_values": {
+    "script_path": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/csv_formatter/scripts/run_csv_formatter.py",
+    "input_path": "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/data/input.csv",
+    "output_path": "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d38a813b759a4831a934b5abf54b7bcb/csvformatter_job_99b288b909f6405980f85f1ecf28bfe9_bcb734f5/output/csv_formatter_output.jsonl",
+    "add_suffix": "False",
+    "num_proc": "1",
+    "encoding": "utf-8"
+  },
+  "spec_source": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/csv_formatter/skill.json"
+}

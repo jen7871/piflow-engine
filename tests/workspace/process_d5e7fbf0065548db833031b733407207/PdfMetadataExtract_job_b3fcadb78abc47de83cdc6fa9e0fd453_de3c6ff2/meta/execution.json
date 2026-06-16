@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/bin/python3.11",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/pdf_metadata_extract/scripts/run_pdf_metadata_extract.py",
+    "--input_path",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/data/Akcay.pdf",
+    "--output_path",
+    "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/PdfMetadataExtract_job_b3fcadb78abc47de83cdc6fa9e0fd453_de3c6ff2/output/metadata.json"
+  ],
+  "cwd": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/pdf_metadata_extract",
+  "returncode": 0,
+  "resolved_values": {
+    "script_path": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/pdf_metadata_extract/scripts/run_pdf_metadata_extract.py",
+    "input_path": "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/data/Akcay.pdf",
+    "output_path": "/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/PdfMetadataExtract_job_b3fcadb78abc47de83cdc6fa9e0fd453_de3c6ff2/output/metadata.json"
+  },
+  "spec_source": "/Users/renhao/PycharmProjects/piflow-python/tests/skills/skills-json/pdf_metadata_extract/skill.json"
+}

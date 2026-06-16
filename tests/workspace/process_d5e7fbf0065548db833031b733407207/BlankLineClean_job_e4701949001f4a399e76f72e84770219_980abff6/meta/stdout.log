@@ -1,0 +1,7 @@
+[OK] Using encoding utf-8 successfully read CSV file
+鎴愬姛璇诲彇鏂囦欢: /Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/PdfMetadataToCsv_job_44e6e5991d7f4f9097ecf5f895b91750_dd87567d/output/metadata.csv锛屾暟鎹舰鐘? (1, 12)
+鎴愬姛鍐欏叆鏂囦欢: /Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/BlankLineClean_job_e4701949001f4a399e76f72e84770219_980abff6/output/cleaned_output.csv
+[OK] Blank line cleaning completed!
+   输入文件：/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/PdfMetadataToCsv_job_44e6e5991d7f4f9097ecf5f895b91750_dd87567d/output/metadata.csv
+   输出文件：/Users/renhao/PycharmProjects/piflow-python/tests/workspace/process_d5e7fbf0065548db833031b733407207/BlankLineClean_job_e4701949001f4a399e76f72e84770219_980abff6/output/cleaned_output.csv
+   清洗前行数：1 | 清洗后行数：1
